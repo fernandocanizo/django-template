@@ -6,6 +6,10 @@ export PROJECT_NAME='change_me'
 export DEBUG=True
 export SECRET_KEY='change_me'
 
+# If DEBUG=False, Django will email when a view raise an exception
+export ADMIN_NAME='put your name here'
+export ADMIN_EMAIL='and your email'
+
 # DB URL should suffice, but if you need more, you can use full URL:
 # postgres://username:password@localhost/database
 export DATABASE_URL="postgres://localhost/${PROJECT_NAME}"
