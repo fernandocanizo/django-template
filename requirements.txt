@@ -1,14 +1,35 @@
+# You're using it
 django
+
+# Custom management extensions for Django
 django-extensions
+
+# WSGI utility module
 werkzeug
+
+# To have JSONField in your models
 django-jsonfield
+
+# Debug Toolbar show useful information to profile and debug your apps
 django-debug-toolbar
+
+# Slugifier that handles unicode
 python-slugify
+
+# Use pgcli when issuing `manage.py dbshell`
 django-pgcli
+
+# Use bpython when issuing `manage.py shell_plus`
 bpython
+
+# Web server on production
 gunicorn
-# to handle Postgresql databases
+
+# To handle Postgresql databases
 psycopg2
 
-# use database urls to populate Django DATABASES dictionary
+# Use database urls to populate Django DATABASES dictionary
 dj-database-url
+
+# Use Twitter Boostrap
+django-bootstrap3
